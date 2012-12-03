@@ -1,0 +1,16 @@
+/*
+ * Empty Stylesheet file.
+*/
+
+.mainFxmlClass {
+
+}
+
+.button {
+    -fx-graphic: url("aaa.jpg");
+    -fx-border-width: 0px;
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
