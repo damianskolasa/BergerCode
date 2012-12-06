@@ -13,6 +13,61 @@
         <padding>
             <Insets top="10" right="10" bottom="10" left="10"/>
         </padding>
-       <Button />
+        
+        
+        <VBox spacing="20" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        <VBox spacing="20" GridPane.columnIndex="1" GridPane.rowIndex="0">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        <VBox spacing="20" GridPane.columnIndex="2" GridPane.rowIndex="0">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        
+        <VBox spacing="20" GridPane.columnIndex="3" GridPane.rowIndex="0">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        
+        <VBox spacing="20" GridPane.columnIndex="4" GridPane.rowIndex="0">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        
+        <VBox spacing="20" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        
+        <VBox spacing="20" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        <VBox spacing="20" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        <VBox spacing="20" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
+        <VBox spacing="20" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Slider min="0" max="64" value="0"  />
+            <Button styleClass="computerButton"/>
+        </VBox>
+        
     </GridPane>
 </Scene>

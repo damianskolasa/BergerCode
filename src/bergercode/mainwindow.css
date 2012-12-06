@@ -2,15 +2,69 @@
  * Empty Stylesheet file.
 */
 
+.root {
+    /*-fx-background-image: url("blue-matrix.jpg");*/
+}
+
 .mainFxmlClass {
-
+    
 }
 
-.button {
-    -fx-graphic: url("aaa.jpg");
-    -fx-border-width: 0px;
-}
-
-.button:hover {
+.computerButton {
     -fx-cursor: hand;
+    -fx-graphic: url("pc.png");
+    -fx-border-width: 1;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+    -fx-border-style: none;
+    -fx-border-image-insets: 0;
+    -fx-background-radius: 23;
+    -fx-border-radius: 23;
+    -fx-border-color: #767676;
+    -fx-background-color: #99C2EB;
+    -fx-padding: 10;
+}
+
+
+.computerButton:pressed {
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
+}
+
+
+.errorButton {
+    -fx-cursor: hand;
+    -fx-graphic: url("error.png");
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+
+.errorButton:pressed {
+    -fx-scale-x: 1.8;
+    -fx-scale-y: 1.8;
+}
+
+
+.startButton {
+    -fx-cursor: hand;
+    -fx-graphic: url("start.png");
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+
+.startButton:pressed {
+    -fx-scale-x: 1.8;
+    -fx-scale-y: 1.8;
+}
+
+.stopButton {
+    -fx-cursor: hand;
+    -fx-graphic: url("stop.png");
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+
+.stopButton:pressed {
+    -fx-scale-x: 1.8;
+    -fx-scale-y: 1.8;
 }
