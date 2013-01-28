@@ -7,42 +7,53 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1025.0000999999975" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1025.0000999999975" xmlns:fx="http://javafx.com/fxml" fx:controller="bergercode.MainWindowController">
   <children>
     <Pane layoutX="14.0" layoutY="14.0" prefHeight="740.0" prefWidth="806.0" style="-fx-border-radius: 23; -fx-border-color: #99C2EB;">
       <children>
-        <Button contentDisplay="CENTER" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" style="" styleClass="computerButton" text="" />
-        <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="14.0" layoutY="25.0" max="64.0" prefWidth="90.0" showTickLabels="false" showTickMarks="false" />
-        <Slider layoutX="14.0" layoutY="153.0" prefWidth="90.0" />
-        <Button layoutX="14.0" layoutY="306.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="14.0" layoutY="284.0" prefWidth="90.0" />
-        <Button layoutX="14.0" layoutY="453.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="14.0" layoutY="431.0" prefWidth="90.0" />
-        <Button layoutX="14.0" layoutY="594.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="14.0" layoutY="572.0" prefWidth="90.0" />
-        <Button layoutX="694.0" layoutY="47.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="694.0" layoutY="25.0" prefWidth="90.0" />
-        <Button layoutX="694.0" layoutY="175.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="694.0" layoutY="153.0" prefWidth="90.0" />
-        <Button layoutX="694.0" layoutY="306.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="694.0" layoutY="284.0" prefWidth="90.0" />
-        <Button layoutX="694.0" layoutY="453.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="694.0" layoutY="431.0" prefWidth="90.0" />
-        <Button layoutX="694.0" layoutY="594.0" mnemonicParsing="false" styleClass="computerButton" text="" />
-        <Slider layoutX="694.0" layoutY="572.0" prefWidth="90.0" />
+        <Button fx:id="comp1" contentDisplay="CENTER" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" style="" styleClass="computerButton" text="" />
+        <Button fx:id="comp3" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid1" layoutX="14.0" layoutY="25.0" max="100.0" prefWidth="90.0" showTickLabels="false" showTickMarks="false" />
+        <Slider fx:id="slid3" layoutX="14.0" layoutY="153.0" prefWidth="90.0" />
+        <Button fx:id="comp5" layoutX="14.0" layoutY="306.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid5" layoutX="14.0" layoutY="284.0" prefWidth="90.0" />
+        <Button fx:id="comp7" layoutX="14.0" layoutY="453.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid7" layoutX="14.0" layoutY="431.0" prefWidth="90.0" />
+        <Button fx:id="comp9" layoutX="14.0" layoutY="594.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid9" layoutX="14.0" layoutY="572.0" prefWidth="90.0" />
+        <Button fx:id="comp2" layoutX="694.0" layoutY="47.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid2" layoutX="694.0" layoutY="25.0" prefWidth="90.0" />
+        <Button fx:id="comp4" layoutX="694.0" layoutY="175.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid4" layoutX="694.0" layoutY="153.0" prefWidth="90.0" />
+        <Button fx:id="comp6" layoutX="694.0" layoutY="306.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid6" layoutX="694.0" layoutY="284.0" prefWidth="90.0" />
+        <Button fx:id="comp8" layoutX="694.0" layoutY="452.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid8" layoutX="694.0" layoutY="431.0" prefWidth="90.0" />
+        <Button fx:id="comp10" layoutX="694.0" layoutY="594.0" mnemonicParsing="false" styleClass="computerButton" text="" />
+        <Slider fx:id="slid10" layoutX="694.0" layoutY="572.0" prefWidth="90.0" />
+        <Line fx:id="from1to2" endX="515.0" endY="-1.0" layoutX="191.0" layoutY="92.0" startX="-100.0" strokeWidth="5.1" />
+        <Line fx:id="from2to3" endX="101.0" endY="-19.0" layoutX="606.0" layoutY="110.0" startX="-512.0" startY="111.0" strokeWidth="5.1" />
+        <Line fx:id="from3to4" endX="514.0" endY="-2.0" layoutX="193.0" layoutY="221.0" startX="-100.0" strokeWidth="5.1" />
+        <Line fx:id="from4to5" endX="100.0" endY="-18.0" layoutX="606.0" layoutY="237.0" startX="-512.0" startY="115.0" strokeWidth="5.1" />
+        <Line fx:id="from5to6" endX="516.0" endY="4.0" layoutX="191.0" layoutY="351.0" startX="-100.0" strokeWidth="5.1" />
+        <Line fx:id="from6to7" endX="99.0" endY="-14.0" layoutX="607.0" layoutY="371.0" startX="-514.0" startY="125.0" strokeWidth="5.1" />
+        <Line fx:id="from7to8" endX="513.0" endY="7.0" layoutX="194.0" layoutY="498.0" startX="-100.0" strokeWidth="5.1" />
+        <Line fx:id="from8to9" endX="100.0" endY="-12.0" layoutX="607.0" layoutY="518.0" startX="-514.0" startY="122.0" strokeWidth="5.1" />
+        <Line fx:id="from9to10" endX="514.0" endY="7.0" layoutX="191.0" layoutY="641.0" startX="-100.0" strokeWidth="5.1" />
+        <Line fx:id="from10to1" endX="102.0" endY="17.0" layoutX="607.0" layoutY="627.0" startX="-515.0" startY="-535.0" strokeWidth="5.1" />
       </children>
     </Pane>
-    <Pane layoutX="846.0" layoutY="14.0" prefHeight="740.0" prefWidth="141.0" style="-fx-border-radius: 23; -fx-border-color: #1947D1">
+    <Pane layoutX="846.0" layoutY="14.0" prefHeight="431.0" prefWidth="141.0" style="-fx-border-radius: 23; -fx-border-color: #1947D1">
       <children>
         <Label layoutX="14.0" layoutY="14.0" text="Ilość bitów" textFill="#0029ff">
           <font>
             <Font name="Arial Bold" size="23.0" />
           </font>
         </Label>
-        <ChoiceBox layoutX="8.0" layoutY="49.0" prefHeight="41.1328125" prefWidth="119.0">
+        <ChoiceBox fx:id="bitsChoiceBox" layoutX="8.0" layoutY="49.0" pickOnBounds="true" prefHeight="41.1328125" prefWidth="119.0">
           <items>
             <FXCollections fx:factory="observableArrayList">
               <String fx:value="8" />
@@ -50,9 +61,9 @@
             </FXCollections>
           </items>
         </ChoiceBox>
-        <Button layoutX="30.0" layoutY="370.0" mnemonicParsing="false" styleClass="errorButton" text="" />
-        <Button layoutX="27.0" layoutY="125.0" mnemonicParsing="false" styleClass="startButton" text="" />
-        <Button layoutX="27.0" layoutY="209.0" mnemonicParsing="false" styleClass="stopButton" text="" />
+        <Button fx:id="error" layoutX="10.0" layoutY="318.0" mnemonicParsing="false" styleClass="errorButton" text="" />
+        <Button fx:id="start" layoutX="10.0" layoutY="104.0" mnemonicParsing="false" styleClass="startButton" text="" />
+        <Button fx:id="stop" layoutX="10.0" layoutY="209.0" mnemonicParsing="false" styleClass="stopButton" text="" />
       </children>
     </Pane>
   </children>

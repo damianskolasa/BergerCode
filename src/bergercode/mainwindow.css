@@ -34,7 +34,7 @@
 
 .errorButton {
     -fx-cursor: hand;
-    -fx-graphic: url("error.png");
+    -fx-graphic: url("error_blue100.png");
     -fx-background-color: rgba(0,0,0,0);
 }
 
@@ -47,7 +47,7 @@
 
 .startButton {
     -fx-cursor: hand;
-    -fx-graphic: url("start.png");
+    -fx-graphic: url("start_blue100.png");
     -fx-background-color: rgba(0,0,0,0);
 }
 
@@ -59,7 +59,7 @@
 
 .stopButton {
     -fx-cursor: hand;
-    -fx-graphic: url("stop.png");
+    -fx-graphic: url("stop_blue100.png");
     -fx-background-color: rgba(0,0,0,0);
 }
 
